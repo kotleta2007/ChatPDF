@@ -1,7 +1,14 @@
 [project]
 name = "chatpdf"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Telegram bot for PDF document Q&A using ChromaDB and vector search"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.9"
+dependencies = [
+    "python-telegram-bot>=20.0",
+    "chromadb>=0.4.0",
+    "openai>=1.0.0",
+    "PyPDF2>=3.0.0",
+    "python-dotenv>=1.0.0",
+    "asyncio>=3.4.3",
+]
